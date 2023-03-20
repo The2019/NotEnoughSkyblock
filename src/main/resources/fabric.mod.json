@@ -3,14 +3,14 @@
   "id": "modid",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "NotEnoughSkyblock",
+  "description": "This is an Mod for Hypixel Skyblock!",
   "authors": [
-    "Me!"
+    "The2019"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/The2019",
+    "sources": "https://github.com/The2019/NotEnoughSkyblock"
   },
 
   "license": "CC0-1.0",
