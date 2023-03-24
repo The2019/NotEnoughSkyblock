@@ -6,7 +6,8 @@
   "mixins": [
   ],
   "client": [
-    "ExampleMixin"
+    "ExampleMixin",
+    "hudRenderMixin"
   ],
   "injectors": {
     "defaultRequire": 1
