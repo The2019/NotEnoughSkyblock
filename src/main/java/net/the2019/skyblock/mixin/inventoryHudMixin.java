@@ -7,17 +7,15 @@ import net.minecraft.client.gui.widget.ButtonWidget;
 import net.minecraft.text.LiteralText;
 import net.minecraft.text.Text;
 import org.spongepowered.asm.mixin.Mixin;
-import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 @Mixin(InventoryScreen.class)
-public abstract class chatRenderMixin extends Screen {
-    @Shadow private boolean mouseDown;
+public abstract class inventoryHudMixin extends Screen {
     private static final MinecraftClient mc = MinecraftClient.getInstance();
 
-    protected chatRenderMixin(Text title) {
+    protected inventoryHudMixin(Text title) {
         super(title);
     }
 
