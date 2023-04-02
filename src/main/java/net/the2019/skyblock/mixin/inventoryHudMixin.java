@@ -23,7 +23,7 @@ public abstract class inventoryHudMixin extends Screen {
     private void renderChat( CallbackInfo ci) {
         assert this.client != null;
         assert this.client.player != null;
-        this.addDrawableChild(new ButtonWidget(10 , 10, 90, 20, new LiteralText("Config") , (buttonWidget) -> {
+        this.addDrawableChild(new ButtonWidget(10 , 10, 90, 20, new LiteralText("Hub") , (buttonWidget) -> {
             this.client.player.sendChatMessage("/warp hub");
         }));
     }
