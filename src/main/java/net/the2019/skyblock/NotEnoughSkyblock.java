@@ -17,7 +17,7 @@ public class NotEnoughSkyblock implements ModInitializer {
 
 		mc.getNetworkHandler().getPlayerList().forEach(playerListEntry -> {
 			if(playerListEntry != null){
-					player
+			
 			}
 		});
 	}
